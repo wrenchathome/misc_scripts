@@ -1,8 +1,11 @@
 # misc_scripts
-some small scripts i did at some point because i needed them at the time
+
+some small scripts i did at some point because i needed them at the time.
+
 uploaded here mainly so i dont have to dig around backups to find them again
 
 #-------------------
+
 wl.py
 
 combines wordlists, needs 1.txt and 2.txt
@@ -30,6 +33,7 @@ $ python wl.py
 1.txt and 2.txt have to be in the same folder (contents should not have an empty line at the end)
 
 #-------------------
+
 wrm.sh
 
 a small bash script to either clear your ram or show the current status of "sync" so you can get an idea how long it's gonna take
@@ -46,6 +50,7 @@ tip:
 just put an alias to it in your bashrc so you can just use "watchsync" or "clearram" as a command (just copy and uncomment the 2nd and 3rd line of the script to your .bashrc)
 
 #-------------------
+
 menu.sh
 
 at some place i used to be they had a different menu every week, but sometimes people forgot to send out the links, so i made a small script to open it for me
@@ -55,6 +60,7 @@ USAGE:
 $ bash menu.sh
 
 #-------------------
+
 i3lock.sh
 
 my old i3 lockscreen, used scrot to make a screenshot of your current screen, shrink it and then bring it back to its original size and use it as a temporary wallpaper. From a few feet away it will look like you left your device unlocked, but getting closer to it you'll notice it's pixelated 
