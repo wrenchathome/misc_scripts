@@ -9,22 +9,29 @@ uploaded here mainly so i dont have to dig around backups to find them again
 wl.py
 
 combines wordlists, needs 1.txt and 2.txt
+
 if 1.txt has
+
 aaa
 bbb
 ccc
 
+
 and 2.txt has
+
 111
 222
 333
 
+
 the results will look like
+
 aaa111
 aaa222
 aaa333
 bbb111
 bbb222
+
 ... and so on
 
 USAGE:
