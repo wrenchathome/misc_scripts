@@ -47,13 +47,18 @@ a small bash script to either clear your ram or show the current status of "sync
 (i used it mainly on debian, but it should work on arch too iirc)
 
 USAGE:
+
 $ bash wrm.sh clearram
+
 to free your ram
 
 $ bash wrm.sh watchsync
+
 to see the current sync writeback
 
+
 tip:
+
 just put an alias to it in your bashrc so you can just use "watchsync" or "clearram" as a command (just copy and uncomment the 2nd and 3rd line of the script to your .bashrc)
 
 #-------------------
@@ -72,7 +77,9 @@ i3lock.sh
 
 my old i3 lockscreen, used scrot to make a screenshot of your current screen, shrink it and then bring it back to its original size and use it as a temporary wallpaper. From a few feet away it will look like you left your device unlocked, but getting closer to it you'll notice it's pixelated 
 
+
 REQUIRES ImageMagick !
+
 (sudo apt-get/yum/whatever install imagemagick (or ImageMagick if it should be case sensitive for whatever reason))
 
 USAGE:
