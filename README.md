@@ -1,8 +1,6 @@
 # misc_scripts
 
-some small scripts i did at some point because i needed them at the time.
-
-uploaded here mainly so i dont have to dig around backups to find them again
+some small bash/python scripts i made at some point
 
 #-------------------
 
@@ -44,7 +42,7 @@ $ python wl.py
 wrm.sh
 
 a small bash script to either clear your ram or show the current status of "sync" so you can get an idea how long it's gonna take
-(i used it mainly on debian, but it should work on arch too iirc)
+(mainly used on debian)
 
 USAGE:
 
@@ -65,8 +63,7 @@ just put an alias to it in your bashrc so you can just use "watchsync" or "clear
 
 menu.sh
 
-at some place i used to be they had a different menu every week, but sometimes people forgot to send out the links, so i made a small script to open it for me
-the url has been removed for obvious reasons, but looking at it you get the idea
+A script that adds the current date (with calendar week) to a url and opens it up in a web browser
 
 USAGE:
 $ bash menu.sh
