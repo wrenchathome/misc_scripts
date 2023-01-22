@@ -1,8 +1,12 @@
 # misc_scripts
 
-some small bash/python scripts i made at some point
+some small scripts i made at some point
 
 #-------------------
+ytdl.bat
+
+used to download youtube videos with yt-dlp in highest mp4 quality
+
 
 wl.py
 
